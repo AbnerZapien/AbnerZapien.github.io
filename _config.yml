@@ -5,13 +5,13 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:                  Eon
-description:            Multipurpose Jekyll theme.
+title:                  HUS
+description:            
 url:                    "https://eon.unbound.studio" # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
-logo:                   logo-dark.svg
-logo_light:             logo-light.svg
+logo:                   
+logo_light:             
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
@@ -78,7 +78,7 @@ navbar:
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
   layout:               columns # center or columns
-  copyright:            Made by <a href="https://unbound.studio/">Unbound Studio</a> in Mexico City.
+  copyright:            Made by Abner Zapien Garcia.
 
 mailchimp:
   form_action:          000000

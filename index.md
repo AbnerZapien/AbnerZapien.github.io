@@ -24,17 +24,39 @@ header:
 
 {% if site.template == 'base' %}
 
+  {% include slider.html 
+  section_size="large"
+  section_padding_remove="bottom"
+  section_title="" 
+  section_header_align="center"
+  section_container="xsmall"
+  color="light"
+  block="slider-home" 
+  navigation="outside"
+  grid="1-1"
+  gutter="collapse"
+  %}
+
   {% include cards.html 
-    block="feature" 
+    block="feature-2" 
     section_background="default" 
     section_size="large"
-    section_title="The first multipurpose Jekyll theme" 
+    section_title="We Offer All Kinds of Services" 
     section_header_align="center"
     section_content_align="center"
     media="top"
-    grid="1-4"
+    grid="1-3"
     gutter="large"
     icon_color="#1B33BF"
+  %}
+
+  {% include cards.html 
+    block="card-media-12" 
+    media="left" 
+    section_size="large"
+    section_background="default"
+    section_header_align="center"
+    card_style="default"
   %}
 
   {% include cards.html 
@@ -47,15 +69,14 @@ header:
     gutter="large"
   %}
 
-  {% include cta.html 
-    section_size="large"
-    section_image="header-9.jpeg"
-    section_overlay="rgba(0, 0, 0, 0.5)"
+  {% include map.html 
+    latitude="19.419897" 
+    longitude="-99.164967" 
+    zoom="12" 
+    section_size="medium"
+    section_padding_remove="top"
     section_container="small"
-    section_content_align="center"
-    section_content_color="light"
-    layout="1"
-    block="cta-4"
+    height="large"
   %}
   
 {% else %}

@@ -1,6 +1,6 @@
 ---
-title: Tired of never ending site maintenance
-subtitle: Put an end to constant theme and plugin updates. Build your website with Jekyll static generator and get on with what matters the most, your business.
+title: HOSPITALITY UNIVERSAL SERVICES
+subtitle: Leave your problems in professional hands.
 ---
 
-{% include button.html text="Purchase" url="#" style="default" size="xlarge" icon="cart" %}
+{% include button.html text="Get In Contact With Us" url="#" style="default" size="xlarge" icon="mail" %}
