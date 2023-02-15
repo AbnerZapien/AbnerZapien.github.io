@@ -1,6 +1,8 @@
 ---
-title: Call To Action
-icon: ios-rocket.svg
+title: Commercial Cleaning
+icon: ios-christmas-star.svg
 ---
 
-Chose from three call to action section layouts.
+Giving the best impression to your customers is the most important thing on a company.
+
+That's why we offer you the best cleaning staff to keep all kind of surfaces shiny.

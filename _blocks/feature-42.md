@@ -1,6 +1,8 @@
 ---
-title: Team
+title: Professional Staffing
 icon: ios-user-groups.svg
 ---
 
-Team section displaying member names, avatars, and positions.  
+Personal care is very important in every successful company.
+
+We provide experienced staff for your bussiness, to give proffessional treat to your customers, both temporary and permanent.

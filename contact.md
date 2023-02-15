@@ -1,5 +1,5 @@
 ---
-title: Contact Us Forms
+title: Contact Us
 width: xsmall
 section: large
 navbar:
@@ -18,12 +18,8 @@ header:
   parallax: true
 ---
 
-Example contact forms using free third party service [Formspree](https://formspree.io/). There are two form layouts with optional name and subject fields.
 {: .uk-text-lead}
 
-## Stacked basic form
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="false" subject="false" %}
-
-## Horizontal layout with subject and name
+## Contact Us To Schedule An apointment
 {% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
 
