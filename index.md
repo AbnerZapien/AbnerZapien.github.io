@@ -59,16 +59,6 @@ header:
     card_style="default"
   %}
 
-  {% include cards.html 
-    block="home-why" 
-    section_title="Why use Eon theme?"
-    section_header_align="center"
-    section_size="large"
-    section_background="muted"
-    grid="1-3"
-    gutter="large"
-  %}
-
   {% include map.html 
     latitude="19.419897" 
     longitude="-99.164967" 
