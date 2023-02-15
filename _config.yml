@@ -7,7 +7,7 @@
 # Site settings
 title:                  HUS
 description:            
-url:                    "https://eon.unbound.studio" # Site base hostname & protocol, e.g. http://example.com
+url:                    "https://AbnerZapien.github.io" # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
 logo:                   
