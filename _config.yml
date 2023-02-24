@@ -10,7 +10,7 @@ description:
 url:                    "https://AbnerZapien.github.io" # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
-logo:                   
+logo:                   favicon-32x32.png
 logo_light:             
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -90,7 +90,7 @@ google_maps_api_key:    # Google maps API key, get your key here: https://develo
 disqus:
   shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
 
-instagram_accesstoken:  
+instagram_accesstoken:  x8dnfii4489rhfhrufh4dd
 
 donations:
   paypal:

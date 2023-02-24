@@ -8,10 +8,5 @@ center:
   - title: Contact Us
     url: /contact/
 
-  - title: 404
-    url: /404/
     
-right:
-  - title: Button
-    url: /Button/
-    button: default
+
