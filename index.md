@@ -8,9 +8,9 @@ navbar:
   transparent_color: light
 header:
   layout: 1-1 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_image: Working-Space.jpg
-  background_video: Working-Space.mp4
-  background_overlay: "linear-gradient(to left top,rgba(218, 91, 197, 0.8) 0%,rgba(151, 27, 191, 0.8) 30%,rgba(2, 8, 212, 0.8) 80%)"
+  background_image: stock-original-2.jpg
+  background_video: Working-Cleaning.mp4
+  background_overlay: "linear-gradient(90deg, rgba(22,20,18,0.8) 0%, rgba(90,71,58,0.8) 35%, rgba(199,189,177,0.8) 100%)"
   color: light
   heading_size: medium
   height: full
@@ -24,24 +24,50 @@ header:
 
 {% if site.template == 'base' %}
 
+  {% include block.html 
+    block="content-aboutUs"
+    block_title="false"
+    section_size="large"
+    section_title="About Us"
+    section_background="#c7bdb1"
+    section_container="xsmall"
+    section_header_align="center"
+  %}
+
   {% include slider.html 
-  section_size="large"
-  section_padding_remove="bottom"
-  section_title="" 
-  section_header_align="center"
-  section_container="xsmall"
-  color="light"
-  block="slider-home" 
-  navigation="outside"
-  grid="1-1"
-  gutter="collapse"
+    section_title="Meet Our Partners"
+    section_header_align="center"
+    block="slider-logo" 
+    section_size="large"
+    section_content_align="center"
+    section_background="#ddd9d6"
+    display_title="false"
+    autoplay="true"
+    sets="false"
+    grid="1-4"
+    gutter="large"
+    navigation="outside"
+    dotnav="false"
   %}
 
   {% include cards.html 
-    block="feature-2" 
-    section_background="default" 
+  section_title="
+  General Services"
+  section_header_align="center"
+  block="card-media-general" 
+  media="top" 
+  section_size="large"
+  section_container="expand"
+  section_background="#c7bdb1"
+  card_style="default"
+  section_content_align="center"
+  %}
+
+  {% include cards.html 
+    block="general-service" 
+    section_background="#ddd9d6"
     section_size="large"
-    section_title="We Offer All Kinds of Services" 
+    section_title="Here are my services!" 
     section_header_align="center"
     section_content_align="center"
     media="top"
@@ -50,13 +76,20 @@ header:
     icon_color="#1B33BF"
   %}
 
-  {% include cards.html 
-    block="card-media-12" 
-    media="left" 
-    section_size="large"
-    section_background="default"
+  {% include slider.html 
+    section_title="Our Work"
     section_header_align="center"
-    card_style="default"
+    block="slider-works" 
+    section_size="large"
+    section_content_align="center"
+    section_background="#ddd9d6"
+    display_title="false"
+    autoplay="true"
+    sets="false"
+    grid="1-4"
+    gutter="large"
+    navigation="outside"
+    dotnav="false"
   %}
 
   {% include map.html 
@@ -64,7 +97,6 @@ header:
     longitude="-99.164967" 
     zoom="12" 
     section_size="medium"
-    section_padding_remove="top"
     section_container="small"
     height="large"
   %}

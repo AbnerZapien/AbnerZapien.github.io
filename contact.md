@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 width: xsmall
-section: large
+section: medium
 navbar:
   sticky: true
   scroll_up: true
@@ -13,13 +13,13 @@ header:
   background_image: header-10.jpeg
   background_overlay: "rgba(0, 0, 0, 0.6)"
   color: light
-  header_size: xlarge
+  header_size: medium
   heading_size: medium
   parallax: true
 ---
 
 {: .uk-text-lead}
 
-## Contact Us To Schedule An apointment
+## We will reach you as soon as possible
 {% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
 
