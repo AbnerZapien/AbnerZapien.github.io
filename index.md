@@ -67,7 +67,7 @@ header:
     block="general-service" 
     section_background="#ddd9d6"
     section_size="large"
-    section_title="Here are my services!" 
+    section_title="More services!" 
     section_header_align="center"
     section_content_align="center"
     media="top"
@@ -82,7 +82,7 @@ header:
     block="slider-works" 
     section_size="large"
     section_content_align="center"
-    section_background="#ddd9d6"
+    section_background="#c7bdb1"
     display_title="false"
     autoplay="true"
     sets="false"
@@ -90,6 +90,19 @@ header:
     gutter="large"
     navigation="outside"
     dotnav="false"
+  %}
+
+  {% include cards.html 
+    block="review1" 
+    section_background="#ddd9d6"
+    section_size="large"
+    section_title="What People Say About Us" 
+    section_header_align="center"
+    section_content_align="center"
+    media="top"
+    grid="1-1"
+    gutter="large"
+    icon_color="#1B33BF"
   %}
 
   {% include map.html 
