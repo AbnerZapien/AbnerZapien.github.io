@@ -1,6 +1,6 @@
 ---
 title: Staffing
-image: cleaning-staffing.jpg
+image: services/cleaning-staffing.png
 ---
 
 Dignissim quis turpis quis, semper consequat vehicula dolor. Suspendisse tincidunt consequat quam, ac consequat.

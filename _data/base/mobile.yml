@@ -2,11 +2,8 @@
 - title: Home
   url: /
 
-- title: Faq
-  url: /faq/
-
-- title: Contact
+- title: Contact Us
   url: /contact/
-
-- title: Blog
-  url: /blog/
+  
+- title: Join Us
+  url: /join/

@@ -1,12 +1,12 @@
 # Navbar menu navigation links
-left:
 
+left:
+  - title: Contact Us
+    url: /contact/
 center:
   - title: Home
     url: /
-
-  - title: Contact Us
-    url: /contact/
-
-    
+right:
+  - title: Join Us
+    url: /join/
 

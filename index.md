@@ -23,6 +23,19 @@ header:
 [comment]: # (This actually is the most platform independent comment)
 
 {% if site.template == 'base' %}
+  {% include slider.html 
+    media="top" 
+    section_background="#ddd9d6"
+    block="ratings" 
+    section_size="large"
+    section_header_align="center" 
+    section_title="What Our Partners Says About Us" 
+    section_content_align="center"
+    autoplay="true"
+    sets="true"
+    grid="1-3"
+    navigation="outside"
+  %}
 
   {% include block.html 
     block="content-aboutUs"
@@ -34,38 +47,22 @@ header:
     section_header_align="center"
   %}
 
-  {% include slider.html 
-    section_title="Meet Our Partners"
-    section_header_align="center"
-    block="slider-logo" 
-    section_size="large"
-    section_content_align="center"
-    section_background="#ddd9d6"
-    display_title="false"
-    autoplay="true"
-    sets="false"
-    grid="1-4"
-    gutter="large"
-    navigation="outside"
-    dotnav="false"
-  %}
-
   {% include cards.html 
-  section_title="
-  General Services"
-  section_header_align="center"
-  block="card-media-general" 
-  media="top" 
-  section_size="large"
-  section_container="expand"
-  section_background="#c7bdb1"
-  card_style="default"
-  section_content_align="center"
+    section_title="
+    General Services"
+    section_header_align="center"
+    block="card-media-general" 
+    media="top" 
+    section_size="large"
+    section_container="expand"
+    section_background="#ddd9d6"
+    card_style="default"
+    section_content_align="center"
   %}
 
   {% include cards.html 
     block="general-service" 
-    section_background="#ddd9d6"
+    section_background="#c7bdb1"
     section_size="large"
     section_title="More services!" 
     section_header_align="center"
@@ -82,7 +79,7 @@ header:
     block="slider-works" 
     section_size="large"
     section_content_align="center"
-    section_background="#c7bdb1"
+    section_background="#ddd9d6"
     display_title="false"
     autoplay="true"
     sets="false"
@@ -92,26 +89,26 @@ header:
     dotnav="false"
   %}
 
-  {% include cards.html 
-    block="review1" 
-    section_background="#ddd9d6"
-    section_size="large"
-    section_title="What People Say About Us" 
-    section_header_align="center"
-    section_content_align="center"
-    media="top"
-    grid="1-1"
+  {% include instagram.html 
+    grid="1-4"
     gutter="large"
-    icon_color="#1B33BF"
+    count="8" 
   %}
 
-  {% include map.html 
-    latitude="19.419897" 
-    longitude="-99.164967" 
-    zoom="12" 
-    section_size="medium"
-    section_container="small"
-    height="large"
+  {% include slider.html 
+    section_title="Meet Our Partners"
+    section_header_align="center"
+    block="slider-logo" 
+    section_size="large"
+    section_content_align="center"
+    section_background="#c7bdb1"
+    display_title="false"
+    autoplay="true"
+    sets="false"
+    grid="1-4"
+    gutter="large"
+    navigation="outside"
+    dotnav="false"
   %}
   
 {% else %}
