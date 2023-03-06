@@ -21,5 +21,5 @@ header:
 {: .uk-text-lead}
 
 ## We will reach you as soon as possible
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
+{% include formspree.html email="abner.azg@gmail.com" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
 
