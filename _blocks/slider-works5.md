@@ -1,4 +1,4 @@
 ---
-title: horno antes
-image: slider-3/horno antes.jpg
+title: Horno Antes y Después
+image: slider-3/Estufas unidas.png
 ---

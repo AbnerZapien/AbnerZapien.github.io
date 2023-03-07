@@ -11,7 +11,7 @@ url:                    "https://AbnerZapien.github.io" # Site base hostname & p
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
 logo:                   96x96.png
-logo_light:             
+logo_light:             96x96white-removebg-preview.png
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
@@ -22,20 +22,20 @@ paginate_path:          "/blog/:num/" # Blog path
 
 # Default author settings
 author:
-  name:                 Pete Seth
-  avatar:               avatar-tom.png
-  title:                Support     
-  bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
+  name:                 
+  avatar:               
+  title:                
+  bio:                  
   url:
-  email:                info@blacompany.com
+  email:                universalsvc.fl.sales@gmail.com
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             https://www.facebook.com/huscorp/
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
+  instagram:            https://www.instagram.com/hus.corp/
+  linkedin:             https://www.linkedin.com/in/hus-corp-264075269/
   pinterest:
   twitter:
   vimeo:
@@ -77,8 +77,8 @@ navbar:
 
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
-  layout:               columns # center or columns
-  copyright:            Made by Abner Zapien Garcia.
+  layout:               center # center or columns
+  copyright:            Made by HUS Corp
 
 mailchimp:
   form_action:          000000
@@ -107,15 +107,15 @@ social_share:
 
 # Social buttons
 social_networks:
-  email:                info@blacompany.com
+  email:                universalsvc.fl.sales@gmail.com
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             https://www.facebook.com/huscorp/
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
+  instagram:            https://www.instagram.com/hus.corp/
+  linkedin:             https://www.linkedin.com/in/hus-corp-264075269/
   pinterest:
   twitter:
   vimeo:

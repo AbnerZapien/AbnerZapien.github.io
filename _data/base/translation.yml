@@ -14,6 +14,7 @@ en:
   contact_name:               "Name"
   contact_email:              "Email"
   contact_subject:            "Subject"
+  contact_phone:              "Phone Number"
   contact_message:            "Message"
   contact_send:               "Send"
   newsletter_email:           "Email Address"

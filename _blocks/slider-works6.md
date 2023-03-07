@@ -1,4 +1,4 @@
 ---
-title: horno despues.jpg
-image: slider-3/horno despues.jpg
+title: Lonas Antes y Después
+image: slider-3/Lonas unidas.png
 ---

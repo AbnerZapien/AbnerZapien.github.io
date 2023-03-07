@@ -1,6 +1,6 @@
 ---
 title: "Excelent Service"
-image: slider-2/Penguin-Hotel.png
+image: slider-2/Sentral-Wynwood.png
 ---
 {% include image.html 
 	src="rating/stars55.png"

@@ -1,18 +1,9 @@
 # Center style footer navigation
 center:
-  - title: Services
-    url: /services/
+  - title: Join Us
+    url: /join/
 
-  - title: News
-    url: /blog/
-
-  - title: Jurisdictions
-    url: /jurisdictions/
-
-  - title: Directory
-    url: /directory/
-
-  - title: Contact
+  - title: Contact Us
     url: /contact/
 
 
@@ -26,6 +17,4 @@ columns:
       - title: LinkedIn
         url: /#
       - title: Facebook
-        url: /#
-      - title: Visit Us
         url: /#
