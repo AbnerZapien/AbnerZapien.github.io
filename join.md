@@ -1,5 +1,5 @@
 ---
-title: Join Us
+title: Join Our Staff!
 width: xsmall
 section: medium
 navbar:
@@ -10,10 +10,11 @@ navbar:
   transparent_color: light
 header:
   layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_image: header-10.jpeg
-  background_overlay: "rgba(0, 0, 0, 0.6)"
+  background_image: joinUs.jpg
+  background_video: join.mp4
+  background_overlay: "linear-gradient(90deg, rgba(22,20,18,0.8) 0%, rgba(90,71,58,0.8) 35%, rgba(199,189,177,0.8) 100%)"
   color: light
-  header_size: medium
+  header_size: large
   heading_size: medium
   parallax: true
 ---
@@ -21,4 +22,4 @@ header:
 {: .uk-text-lead}
 
 ## We will reach you as soon as possible
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
+{% include formspree-join.html email="https://formspree.io/f/mayzjzyg" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
